@@ -3,7 +3,7 @@
 #include<ctime>
 #define N 100
 using namespace std;
-//获得字段中的中值
+//将字段第一个元素作为中值并返回位置信息，同时将简单区分中值左右字段
 int getmid(int* arr,int low,int high)
 {
 	int temp=arr[low];
