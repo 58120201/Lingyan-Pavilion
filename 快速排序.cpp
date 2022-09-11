@@ -3,6 +3,7 @@
 #include<ctime>
 #define N 100
 using namespace std;
+//获得字段中的中值
 int getmid(int* arr,int low,int high)
 {
 	int temp=arr[low];
@@ -18,6 +19,7 @@ int getmid(int* arr,int low,int high)
 	arr[low]=temp;
 	return low;
 }
+//快排
 void Quicksort(int arr[],int left,int right)
 {
 	if(left<right)
