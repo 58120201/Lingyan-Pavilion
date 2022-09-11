@@ -30,9 +30,9 @@ void trans(char*a,char*b,char*c)
 }
 int main()
 {
-	char a[]="jwc is worsen than the wc nearby";
-	char b[]="wc";
-	char c[]="xxx";
+	char a[]="python is a good computer language";
+	char b[]="python";
+	char c[]="c++";
 	trans(a,b,c);
 	return 0;
 }
